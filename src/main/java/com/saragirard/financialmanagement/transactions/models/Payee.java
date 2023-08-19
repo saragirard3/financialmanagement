@@ -1,4 +1,4 @@
-package com.saragirard.financialmanagement.transaction.models;
+package com.saragirard.financialmanagement.transactions.models;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Id;
@@ -15,6 +15,15 @@ public class Payee {
     @Column String payeeDescription;
 
     public Payee() {
+    }
+
+    @Override
+    public String toString() {
+        return "Payee{" +
+                "id=" + id +
+                ", payeeName='" + payeeName + '\'' +
+                ", payeeDescription='" + payeeDescription + '\'' +
+                '}';
     }
 
 }
