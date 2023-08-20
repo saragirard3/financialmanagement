@@ -6,9 +6,9 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
-@Table(name = "category")
 @Getter
 @Setter
+@Table(name = "category")
 public class Category {
     @Id Long id;
     @Column String category;

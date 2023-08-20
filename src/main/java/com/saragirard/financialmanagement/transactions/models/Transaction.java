@@ -6,9 +6,10 @@ import lombok.Setter;
 
 import java.util.Date;
 
-@Table(name = "transaction")
+
 @Getter
 @Setter
+@Table(name = "transaction")
 public class Transaction {
     Long id;
     Date date;

@@ -8,12 +8,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class CategoryServiceImpl implements CategoryService{
 
-    @Autowired private CategoryRepository categoryRepository;
+    private CategoryRepository categoryRepository;
 
 
     @Override
     public Category findCategoryById(Long categoryId) {
-//        Category category = categoryRepository.findById(categoryId);
         return null;
     }
 }

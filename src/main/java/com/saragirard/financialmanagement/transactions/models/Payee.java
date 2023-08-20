@@ -6,9 +6,10 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
-@Table(name = "payee")
+
 @Getter
 @Setter
+@Table(name = "payee")
 public class Payee {
     @Id Long id;
     @Column String payeeName;
